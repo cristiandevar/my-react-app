@@ -12,7 +12,7 @@ function ListExample1(){
         <>
         <h1>Who lives in my garage?</h1>
         <ul>
-            {cars.map((car)=><Car key={car.id} brand={car.name}/>)};
+            {cars.map((car)=><Car key={car.id} brand={car.name}/>)}
         </ul>
         </>
     );

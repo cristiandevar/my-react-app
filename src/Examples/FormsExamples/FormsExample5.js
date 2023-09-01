@@ -9,6 +9,7 @@ const handleChange = (event) => {
 }
 
     return(
+        <>
         <form>
             <select value={myCar} onChange={handleChange}>
                 <option value='Ford'>Ford</option>
@@ -16,6 +17,7 @@ const handleChange = (event) => {
                 <option value='Fiat'>Fiat</option>
             </select>
         </form>
+        </>
     );
 }
 
