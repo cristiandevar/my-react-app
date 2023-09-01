@@ -6,6 +6,7 @@ import RenderExample1 from './RenderExample1';
 import ConditionalExample1 from './ConditionalExample1';
 import ConditionalExample2 from './ConditionalExample2';
 import reportWebVitals from './reportWebVitals';
+import ListExample1 from './ListExample1';
 
 // const myFirstElement = <h1> Hello React </h1>;
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <RenderExample1 />
     <ConditionalExample1 cars = {myCars}/>
     <ConditionalExample2 isGoal = {true}/>
+    <ListExample1 />
   </React.StrictMode>
 );
 
