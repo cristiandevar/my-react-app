@@ -1,3 +1,4 @@
+import './test.css';
 import RenderExample1 from './RenderExamples/RenderExample1';
 import ConditionalExample1 from './ConditionalExamples/ConditionalExample1';
 import ConditionalExample2 from './ConditionalExamples/ConditionalExample2';
@@ -7,7 +8,7 @@ import FormsExample2 from './FormsExamples/FormsExample2';
 import FormsExample3 from './FormsExamples/FormsExample3';
 import FormsExample4 from './FormsExamples/FormsExample4';
 import FormsExample5 from './FormsExamples/FormsExample5';
-import './test.css'
+import HooksExample1 from './HooksExamples/HooksExample1';
 
 function Test(){
     const myCars = ["ford", "chevro"];
@@ -23,6 +24,7 @@ function Test(){
                 <FormsExample3 />
                 <FormsExample4 />
                 <FormsExample5 />
+                <HooksExample1 />
             </div>
         </>
     );
