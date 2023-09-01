@@ -6,15 +6,19 @@ function RenderExample1(){
             <p>Hello!</p>
             <header id="sandy"></header>
             <table>
-                <tr>
-                    <th>Name</th>
-                </tr>
-                <tr>
-                    <th>John</th>
-                </tr>
-                <tr>
-                    <th>Elsa</th>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                    </tr>
+                    <tr>
+                        <td>Elsa</td>
+                    </tr>
+                </tbody>
             </table>
         </>
     );
