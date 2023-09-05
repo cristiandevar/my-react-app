@@ -8,17 +8,18 @@ import FormsExample2 from './FormsExamples/FormsExample2';
 import FormsExample3 from './FormsExamples/FormsExample3';
 import FormsExample4 from './FormsExamples/FormsExample4';
 import FormsExample5 from './FormsExamples/FormsExample5';
-import HooksExample1 from './HooksExamples/HooksExample01';
-import HooksExample2 from './HooksExamples/HooksExample02';
-import HooksExample3 from './HooksExamples/HooksExample03';
-import HooksExample4 from './HooksExamples/HooksExample04';
-import HooksExample5 from './HooksExamples/HooksExample05';
-import HooksExample6 from './HooksExamples/HooksExample06';
-import HooksExample7 from './HooksExamples/HooksExample07';
-import HooksExample8 from './HooksExamples/HooksExample08';
-import HooksExample9 from './HooksExamples/HooksExample09';
+import HooksExample01 from './HooksExamples/HooksExample01';
+import HooksExample02 from './HooksExamples/HooksExample02';
+import HooksExample03 from './HooksExamples/HooksExample03';
+import HooksExample04 from './HooksExamples/HooksExample04';
+import HooksExample05 from './HooksExamples/HooksExample05';
+import HooksExample06 from './HooksExamples/HooksExample06';
+import HooksExample07 from './HooksExamples/HooksExample07';
+import HooksExample08 from './HooksExamples/HooksExample08';
+import HooksExample09 from './HooksExamples/HooksExample09';
 import HooksExample10 from './HooksExamples/HooksExample10';
 import HooksExample11 from './HooksExamples/HooksExample11';
+import HooksExample12a from './HooksExamples/HooksExample12a';
 
 function Test(){
     const myCars = ["ford", "chevro"];
@@ -43,8 +44,10 @@ function Test(){
                 <HooksExample07 />
                 <HooksExample08 />
                 <HooksExample09 />
-                <HooksExample10 /> */}
-                <HooksExample11 />
+                <HooksExample10 />
+                <HooksExample11 /> */}
+                <HooksExample12a />
+                <HooksExample07 />
             </div>
         </>
     );
