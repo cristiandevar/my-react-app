@@ -1,7 +1,7 @@
 import { useForm }from "react-hook-form";
 import { edadValidator } from "./Validators";
 
-const Formulario = () => {
+const HookFormExample1 = () => {
 
     const {register, formState: {errors}, handleSubmit} = useForm(); 
 
@@ -63,4 +63,4 @@ const Formulario = () => {
     );
 }
 
-export default Formulario;
+export default HookFormExample1;
