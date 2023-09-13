@@ -21,7 +21,10 @@ import HooksExample10 from './HooksExamples/HooksExample10';
 import HooksExample11 from './HooksExamples/HooksExample11';
 import HooksExample12a from './HooksExamples/HooksExample12a';
 import LoadFile from './Other/InputFile';
-import DragDrop from './Other/ProbandoDragandDrop';
+import Dropzone from './Other/DropZone';
+import App from './Other/DropZone4';
+import Formulario from './Other/Formularios/HookForm';
+import HookForm2 from './Other/Formularios/HookForm2';
 
 function Test(){
     const myCars = ["ford", "chevro"];
@@ -50,8 +53,12 @@ function Test(){
                 <HooksExample11 /> 
                 <HooksExample12a />
                 <HooksExample07 />
-                <LoadFile />*/}
-                <DragDrop />
+                <LoadFile />
+                <Dropzone />
+                <App />*/}
+                <Formulario />
+                <HookForm2 />
+
             </div>
         </>
     );
