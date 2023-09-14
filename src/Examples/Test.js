@@ -26,6 +26,10 @@ import App from './Other/DropZone4';
 import HookFormExample1 from './HooksExamples/HookForm/HookFormExample1';
 import HookFormExample2 from './HooksExamples/HookForm/HookFormExample2';
 import HookFormExample3 from './HooksExamples/HookForm/HookFormExample3';
+import HookFormExample4 from './HooksExamples/HookForm/HookFormExample4';
+import HookFormExample5 from './HooksExamples/HookForm/HookFormExample5';
+import HookFormExample6 from './HooksExamples/HookForm/HookFormExample6';
+
 
 function Test(){
     const myCars = ["ford", "chevro"];
@@ -56,10 +60,13 @@ function Test(){
                 <HooksExample07 />
                 <LoadFile />
                 <Dropzone />
-                <App />*/}
+                <App />
                 <HookFormExample1 />
                 <HookFormExample2 />
                 <HookFormExample3 />
+                <HookFormExample4 />
+                <HookFormExample5 />*/}
+                <HookFormExample6 />
 
             </div>
         </>
